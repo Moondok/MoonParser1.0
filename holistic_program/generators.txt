@@ -1,0 +1,78 @@
+0 sstart->start 
+1 start->external_declaration start 
+2 start->$ 
+3 external_declaration->declaration 
+4 external_declaration->function_definition 
+5 type_specifier->int 
+6 type_specifier->float 
+7 type_specifier->double 
+8 type_specifier->char 
+9 declaration->type_specifier declaration_parameter declaration_parameter_suffix ; 
+10 declaration_parameter->identifier declaration_parameter_assign 
+11 declaration_parameter_assign->= expression 
+12 declaration_parameter_assign->$ 
+13 declaration_parameter_suffix->, declaration_parameter declaration_parameter_suffix 
+14 declaration_parameter_suffix->$ 
+15 primary_expression->identifier 
+16 primary_expression->number 
+17 primary_expression->( expression ) 
+18 operator->+ 
+19 operator->- 
+20 operator->* 
+21 operator->/ 
+22 operator->% 
+23 operator->< 
+24 operator->> 
+25 operator->^ 
+26 operator->& 
+27 operator-><= 
+28 operator->>= 
+29 assignment_operator->= 
+30 assignment_operator->+ = 
+31 assignment_operator->- = 
+32 assignment_operator->* = 
+33 assignment_operator->/ = 
+34 assignment_operator->% = 
+35 assignment_operator->^ = 
+36 assignment_operator->& = 
+37 assignment_expression->identifier assignment_operator expression 
+38 assignment_expression_list_suffix->, assignment_expression assignment_expression_list_suffix 
+39 assignment_expression_list_suffix->$ 
+40 assignment_expression_list->assignment_expression assignment_expression_list_suffix 
+41 assignment_expression_list->$ 
+42 expression->constant_expression 
+43 expression->function_expression 
+44 constant_expression->primary_expression arithmetic_expression 
+45 arithmetic_expression->operator 
+46 arithmetic_expression->primary_expression arithmetic_expression 
+47 arithmetic_expression->operator primary_expression arithmetic_expression 
+48 arithmetic_expression->$ 
+49 function_expression->function identifier ( expression_list ) 
+50 expression_list_suffix->, expression expression_list_suffix 
+51 expression_list_suffix->$ 
+52 expression_list->expression expression_list_suffix 
+53 expression_list->$ 
+54 function_definition->function type_specifier identifier ( function_parameter_list ) compound_statement 
+55 function_parameter_list->function_parameter function_parameter_list_suffix 
+56 function_parameter_list->$ 
+57 function_parameter_list_suffix->, function_parameter function_parameter_list_suffix 
+58 function_parameter_list_suffix->$ 
+59 function_parameter->type_specifier identifier 
+60 compound_statement->{ statement_list } 
+61 statement_list->statement statement_list 
+62 statement_list->$ 
+63 statement->expression_statement 
+64 statement->jump_statement 
+65 statement->selection_statement 
+66 statement->iteration_statement 
+67 statement->compound_statement 
+68 statement->declaration 
+69 expression_statement->assignment_expression_list ; 
+70 expression_statement->print ( expression ) ; 
+71 expression_statement->scanf ( identifier ) ; 
+72 jump_statement->continue ; 
+73 jump_statement->break ; 
+74 jump_statement->return expression ; 
+75 selection_statement->if ( expression ) statement else statement 
+76 iteration_statement->while ( expression ) statement 
+77 iteration_statement->for ( declaration expression ; assignment_expression ) statement 

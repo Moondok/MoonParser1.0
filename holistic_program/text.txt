@@ -1,0 +1,21 @@
+double aa=1..e;
+ int inta=1;
+ char hh;
+ //bnueab
+ function int main(int a){
+  while(10086){
+   int a;
+  }
+  if(2){
+   while(2){
+    for(int i=0;i<2;i=i+1){
+     return 123;
+    }
+   }
+  }
+else 
+{
+    int c=p;
+}
+}
+  

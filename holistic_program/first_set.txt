@@ -1,0 +1,66 @@
+FIRST['$'] = { '$' }
+FIRST['%'] = { '%' }
+FIRST['&'] = { '&' }
+FIRST['('] = { '(' }
+FIRST[')'] = { ')' }
+FIRST['*'] = { '*' }
+FIRST['+'] = { '+' }
+FIRST[','] = { ',' }
+FIRST['-'] = { '-' }
+FIRST['/'] = { '/' }
+FIRST[';'] = { ';' }
+FIRST['<'] = { '<' }
+FIRST['<='] = { '<=' }
+FIRST['='] = { '=' }
+FIRST['>'] = { '>' }
+FIRST['>='] = { '>=' }
+FIRST['^'] = { '^' }
+FIRST['arithmetic_expression'] = { '$' '%' '&' '(' '*' '+' '-' '/' '<' '<=' '>' '>=' '^' 'identifier' 'number' }
+FIRST['assignment_expression'] = { 'identifier' }
+FIRST['assignment_expression_list'] = { '$' 'identifier' }
+FIRST['assignment_expression_list_suffix'] = { '$' ',' }
+FIRST['assignment_operator'] = { '%' '&' '*' '+' '-' '/' '=' '^' }
+FIRST['break'] = { 'break' }
+FIRST['char'] = { 'char' }
+FIRST['compound_statement'] = { '{' }
+FIRST['constant_expression'] = { '(' 'identifier' 'number' }
+FIRST['continue'] = { 'continue' }
+FIRST['declaration'] = { 'char' 'double' 'float' 'int' }
+FIRST['declaration_parameter'] = { 'identifier' }
+FIRST['declaration_parameter_assign'] = { '$' '=' }
+FIRST['declaration_parameter_suffix'] = { '$' ',' }
+FIRST['double'] = { 'double' }
+FIRST['else'] = { 'else' }
+FIRST['expression'] = { '(' 'function' 'identifier' 'number' }
+FIRST['expression_list'] = { '$' '(' 'function' 'identifier' 'number' }
+FIRST['expression_list_suffix'] = { '$' ',' }
+FIRST['expression_statement'] = { ';' 'identifier' 'print' 'scanf' }
+FIRST['external_declaration'] = { 'char' 'double' 'float' 'function' 'int' }
+FIRST['float'] = { 'float' }
+FIRST['for'] = { 'for' }
+FIRST['function'] = { 'function' }
+FIRST['function_definition'] = { 'function' }
+FIRST['function_expression'] = { 'function' }
+FIRST['function_parameter'] = { 'char' 'double' 'float' 'int' }
+FIRST['function_parameter_list'] = { '$' 'char' 'double' 'float' 'int' }
+FIRST['function_parameter_list_suffix'] = { '$' ',' }
+FIRST['identifier'] = { 'identifier' }
+FIRST['if'] = { 'if' }
+FIRST['int'] = { 'int' }
+FIRST['iteration_statement'] = { 'for' 'while' }
+FIRST['jump_statement'] = { 'break' 'continue' 'return' }
+FIRST['number'] = { 'number' }
+FIRST['operator'] = { '%' '&' '*' '+' '-' '/' '<' '<=' '>' '>=' '^' }
+FIRST['primary_expression'] = { '(' 'identifier' 'number' }
+FIRST['print'] = { 'print' }
+FIRST['return'] = { 'return' }
+FIRST['scanf'] = { 'scanf' }
+FIRST['selection_statement'] = { 'if' }
+FIRST['sstart'] = { '$' 'char' 'double' 'float' 'function' 'int' }
+FIRST['start'] = { '$' 'char' 'double' 'float' 'function' 'int' }
+FIRST['statement'] = { ';' 'break' 'char' 'continue' 'double' 'float' 'for' 'identifier' 'if' 'int' 'print' 'return' 'scanf' 'while' '{' }
+FIRST['statement_list'] = { '$' ';' 'break' 'char' 'continue' 'double' 'float' 'for' 'identifier' 'if' 'int' 'print' 'return' 'scanf' 'while' '{' }
+FIRST['type_specifier'] = { 'char' 'double' 'float' 'int' }
+FIRST['while'] = { 'while' }
+FIRST['{'] = { '{' }
+FIRST['}'] = { '}' }

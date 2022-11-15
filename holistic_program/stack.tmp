@@ -1,0 +1,171 @@
+p 0 #
+@ function
+p 6 function
+@ int
+p 8 int
+@ identifier
+b
+p 12 type_specifier
+p 15 identifier
+@ (
+p 20 (
+@ int
+p 8 int
+@ identifier
+b
+p 33 type_specifier
+p 61 identifier
+@ )
+b
+b
+p 31 function_parameter
+p 59 function_parameter_list_suffix
+b
+b
+p 32 function_parameter_list
+p 60 )
+@ {
+p 84 {
+@ while
+p 119 while
+@ (
+p 171 (
+@ identifier
+p 40 identifier
+@ <
+b
+p 42 primary_expression
+p 71 <
+@ number
+b
+p 77 operator
+p 41 number
+@ )
+b
+p 87 primary_expression
+p 122 arithmetic_expression
+b
+b
+b
+p 76 arithmetic_expression
+b
+b
+p 36 constant_expression
+b
+p 211 expression
+p 227 )
+@ {
+p 120 {
+@ identifier
+p 108 identifier
+@ =
+p 154 =
+@ identifier
+b
+p 156 assignment_operator
+p 28 identifier
+@ +
+b
+p 30 primary_expression
+p 47 +
+@ number
+b
+p 56 operator
+p 29 number
+@ ;
+b
+p 80 primary_expression
+p 98 arithmetic_expression
+b
+b
+b
+p 55 arithmetic_expression
+b
+b
+p 24 constant_expression
+b
+p 189 expression
+b
+b
+b
+p 100 assignment_expression
+p 143 assignment_expression_list_suffix
+b
+b
+p 101 assignment_expression_list
+p 144 ;
+@ }
+b
+b
+p 106 expression_statement
+b
+p 116 statement
+p 168 statement_list
+b
+b
+p 172 statement_list
+p 212 }
+@ return
+b
+b
+b
+p 103 compound_statement
+b
+p 253 statement
+b
+b
+b
+b
+b
+p 110 iteration_statement
+b
+p 116 statement
+p 113 return
+@ number
+p 165 number
+@ ;
+b
+p 166 primary_expression
+p 206 arithmetic_expression
+b
+b
+p 160 constant_expression
+b
+p 161 expression
+p 193 ;
+@ }
+b
+b
+b
+p 111 jump_statement
+b
+p 116 statement
+p 168 statement_list
+b
+b
+p 168 statement_list
+b
+b
+p 117 statement_list
+p 169 }
+@ #
+b
+b
+b
+p 83 compound_statement
+b
+b
+b
+b
+b
+b
+b
+p 7 function_definition
+b
+p 4 external_declaration
+p 11 start
+b
+b
+p 9 start
+b
+#

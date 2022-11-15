@@ -1,0 +1,1794 @@
+    0
+ACTION
+function s6  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   # r2  ||   
+GOTO
+type_specifier 10  ||   start 9  ||   function_definition 7  ||   external_declaration 4  ||   declaration 2  ||   
+
+    1
+ACTION
+identifier r8  ||   
+GOTO
+
+
+    2
+ACTION
+int r3  ||   function r3  ||   float r3  ||   double r3  ||   char r3  ||   # r3  ||   
+GOTO
+
+
+    3
+ACTION
+identifier r7  ||   
+GOTO
+
+
+    4
+ACTION
+function s6  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   # r2  ||   
+GOTO
+type_specifier 10  ||   start 11  ||   function_definition 7  ||   external_declaration 4  ||   declaration 2  ||   
+
+    5
+ACTION
+identifier r6  ||   
+GOTO
+
+
+    6
+ACTION
+char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 12  ||   
+
+    7
+ACTION
+int r4  ||   function r4  ||   float r4  ||   double r4  ||   char r4  ||   # r4  ||   
+GOTO
+
+
+    8
+ACTION
+identifier r5  ||   
+GOTO
+
+
+    9
+ACTION
+# s10086  ||   
+GOTO
+
+
+   10
+ACTION
+identifier s14  ||   
+GOTO
+declaration_parameter 13  ||   
+
+   11
+ACTION
+# r1  ||   
+GOTO
+
+
+   12
+ACTION
+identifier s15  ||   
+GOTO
+
+
+   13
+ACTION
+; r14  ||   , s16  ||   
+GOTO
+declaration_parameter_suffix 17  ||   
+
+   14
+ACTION
+; r12  ||   , r12  ||   = s18  ||   
+GOTO
+declaration_parameter_assign 19  ||   
+
+   15
+ACTION
+( s20  ||   
+GOTO
+
+
+   16
+ACTION
+identifier s14  ||   
+GOTO
+declaration_parameter 21  ||   
+
+   17
+ACTION
+; s22  ||   
+GOTO
+
+
+   18
+ACTION
+function s26  ||   ( s23  ||   number s29  ||   identifier s28  ||   
+GOTO
+primary_expression 30  ||   function_expression 27  ||   expression 25  ||   constant_expression 24  ||   
+
+   19
+ACTION
+; r10  ||   , r10  ||   
+GOTO
+
+
+   20
+ACTION
+) r56  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 33  ||   function_parameter_list 32  ||   function_parameter 31  ||   
+
+   21
+ACTION
+; r14  ||   , s16  ||   
+GOTO
+declaration_parameter_suffix 34  ||   
+
+   22
+ACTION
+int r9  ||   function r9  ||   float r9  ||   double r9  ||   char r9  ||   # r9  ||   
+GOTO
+
+
+   23
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 37  ||   constant_expression 36  ||   
+
+   24
+ACTION
+; r42  ||   , r42  ||   
+GOTO
+
+
+   25
+ACTION
+; r11  ||   , r11  ||   
+GOTO
+
+
+   26
+ACTION
+identifier s43  ||   
+GOTO
+
+
+   27
+ACTION
+; r43  ||   , r43  ||   
+GOTO
+
+
+   28
+ACTION
+number r15  ||   identifier r15  ||   ^ r15  ||   >= r15  ||   > r15  ||   <= r15  ||   < r15  ||   ; r15  ||   / r15  ||   - r15  ||   , r15  ||   + r15  ||   * r15  ||   ( r15  ||   & r15  ||   % r15  ||   
+GOTO
+
+
+   29
+ACTION
+number r16  ||   identifier r16  ||   ^ r16  ||   >= r16  ||   > r16  ||   <= r16  ||   < r16  ||   ; r16  ||   / r16  ||   - r16  ||   , r16  ||   + r16  ||   * r16  ||   ( r16  ||   & r16  ||   % r16  ||   
+GOTO
+
+
+   30
+ACTION
+; r48  ||   , r48  ||   >= s53  ||   <= s51  ||   & s45  ||   ^ s54  ||   > s52  ||   < s50  ||   % s44  ||   / s49  ||   * s46  ||   - s48  ||   + s47  ||   ( s23  ||   number s29  ||   identifier s28  ||   
+GOTO
+primary_expression 57  ||   operator 56  ||   arithmetic_expression 55  ||   
+
+   31
+ACTION
+) r58  ||   , s58  ||   
+GOTO
+function_parameter_list_suffix 59  ||   
+
+   32
+ACTION
+) s60  ||   
+GOTO
+
+
+   33
+ACTION
+identifier s61  ||   
+GOTO
+
+
+   34
+ACTION
+; r13  ||   
+GOTO
+
+
+   35
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 62  ||   constant_expression 36  ||   
+
+   36
+ACTION
+) r42  ||   
+GOTO
+
+
+   37
+ACTION
+) s63  ||   
+GOTO
+
+
+   38
+ACTION
+identifier s64  ||   
+GOTO
+
+
+   39
+ACTION
+) r43  ||   
+GOTO
+
+
+   40
+ACTION
+number r15  ||   identifier r15  ||   ^ r15  ||   >= r15  ||   > r15  ||   <= r15  ||   < r15  ||   / r15  ||   - r15  ||   + r15  ||   * r15  ||   ) r15  ||   ( r15  ||   & r15  ||   % r15  ||   
+GOTO
+
+
+   41
+ACTION
+number r16  ||   identifier r16  ||   ^ r16  ||   >= r16  ||   > r16  ||   <= r16  ||   < r16  ||   / r16  ||   - r16  ||   + r16  ||   * r16  ||   ) r16  ||   ( r16  ||   & r16  ||   % r16  ||   
+GOTO
+
+
+   42
+ACTION
+) r48  ||   >= s74  ||   <= s72  ||   & s66  ||   ^ s75  ||   > s73  ||   < s71  ||   % s65  ||   / s70  ||   * s67  ||   - s69  ||   + s68  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 78  ||   operator 77  ||   arithmetic_expression 76  ||   
+
+   43
+ACTION
+( s79  ||   
+GOTO
+
+
+   44
+ACTION
+number r22  ||   identifier r22  ||   ( r22  ||   ; r22  ||   , r22  ||   
+GOTO
+
+
+   45
+ACTION
+number r26  ||   identifier r26  ||   ( r26  ||   ; r26  ||   , r26  ||   
+GOTO
+
+
+   46
+ACTION
+number r20  ||   identifier r20  ||   ( r20  ||   ; r20  ||   , r20  ||   
+GOTO
+
+
+   47
+ACTION
+number r18  ||   identifier r18  ||   ( r18  ||   ; r18  ||   , r18  ||   
+GOTO
+
+
+   48
+ACTION
+number r19  ||   identifier r19  ||   ( r19  ||   ; r19  ||   , r19  ||   
+GOTO
+
+
+   49
+ACTION
+number r21  ||   identifier r21  ||   ( r21  ||   ; r21  ||   , r21  ||   
+GOTO
+
+
+   50
+ACTION
+number r23  ||   identifier r23  ||   ( r23  ||   ; r23  ||   , r23  ||   
+GOTO
+
+
+   51
+ACTION
+number r27  ||   identifier r27  ||   ( r27  ||   ; r27  ||   , r27  ||   
+GOTO
+
+
+   52
+ACTION
+number r24  ||   identifier r24  ||   ( r24  ||   ; r24  ||   , r24  ||   
+GOTO
+
+
+   53
+ACTION
+number r28  ||   identifier r28  ||   ( r28  ||   ; r28  ||   , r28  ||   
+GOTO
+
+
+   54
+ACTION
+number r25  ||   identifier r25  ||   ( r25  ||   ; r25  ||   , r25  ||   
+GOTO
+
+
+   55
+ACTION
+; r44  ||   , r44  ||   
+GOTO
+
+
+   56
+ACTION
+; r45  ||   , r45  ||   ( s23  ||   number s29  ||   identifier s28  ||   
+GOTO
+primary_expression 80  ||   
+
+   57
+ACTION
+; r48  ||   , r48  ||   >= s53  ||   <= s51  ||   & s45  ||   ^ s54  ||   > s52  ||   < s50  ||   % s44  ||   / s49  ||   * s46  ||   - s48  ||   + s47  ||   ( s23  ||   number s29  ||   identifier s28  ||   
+GOTO
+primary_expression 57  ||   operator 56  ||   arithmetic_expression 81  ||   
+
+   58
+ACTION
+char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 33  ||   function_parameter 82  ||   
+
+   59
+ACTION
+) r55  ||   
+GOTO
+
+
+   60
+ACTION
+{ s84  ||   
+GOTO
+compound_statement 83  ||   
+
+   61
+ACTION
+, r59  ||   ) r59  ||   
+GOTO
+
+
+   62
+ACTION
+) s85  ||   
+GOTO
+
+
+   63
+ACTION
+number r17  ||   identifier r17  ||   ^ r17  ||   >= r17  ||   > r17  ||   <= r17  ||   < r17  ||   ; r17  ||   / r17  ||   - r17  ||   , r17  ||   + r17  ||   * r17  ||   ( r17  ||   & r17  ||   % r17  ||   
+GOTO
+
+
+   64
+ACTION
+( s86  ||   
+GOTO
+
+
+   65
+ACTION
+number r22  ||   identifier r22  ||   ( r22  ||   ) r22  ||   
+GOTO
+
+
+   66
+ACTION
+number r26  ||   identifier r26  ||   ( r26  ||   ) r26  ||   
+GOTO
+
+
+   67
+ACTION
+number r20  ||   identifier r20  ||   ( r20  ||   ) r20  ||   
+GOTO
+
+
+   68
+ACTION
+number r18  ||   identifier r18  ||   ( r18  ||   ) r18  ||   
+GOTO
+
+
+   69
+ACTION
+number r19  ||   identifier r19  ||   ( r19  ||   ) r19  ||   
+GOTO
+
+
+   70
+ACTION
+number r21  ||   identifier r21  ||   ( r21  ||   ) r21  ||   
+GOTO
+
+
+   71
+ACTION
+number r23  ||   identifier r23  ||   ( r23  ||   ) r23  ||   
+GOTO
+
+
+   72
+ACTION
+number r27  ||   identifier r27  ||   ( r27  ||   ) r27  ||   
+GOTO
+
+
+   73
+ACTION
+number r24  ||   identifier r24  ||   ( r24  ||   ) r24  ||   
+GOTO
+
+
+   74
+ACTION
+number r28  ||   identifier r28  ||   ( r28  ||   ) r28  ||   
+GOTO
+
+
+   75
+ACTION
+number r25  ||   identifier r25  ||   ( r25  ||   ) r25  ||   
+GOTO
+
+
+   76
+ACTION
+) r44  ||   
+GOTO
+
+
+   77
+ACTION
+) r45  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 87  ||   
+
+   78
+ACTION
+) r48  ||   >= s74  ||   <= s72  ||   & s66  ||   ^ s75  ||   > s73  ||   < s71  ||   % s65  ||   / s70  ||   * s67  ||   - s69  ||   + s68  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 78  ||   operator 77  ||   arithmetic_expression 88  ||   
+
+   79
+ACTION
+) r53  ||   function s93  ||   ( s89  ||   number s96  ||   identifier s95  ||   
+GOTO
+primary_expression 97  ||   function_expression 94  ||   expression_list 92  ||   expression 91  ||   constant_expression 90  ||   
+
+   80
+ACTION
+; r48  ||   , r48  ||   >= s53  ||   <= s51  ||   & s45  ||   ^ s54  ||   > s52  ||   < s50  ||   % s44  ||   / s49  ||   * s46  ||   - s48  ||   + s47  ||   ( s23  ||   number s29  ||   identifier s28  ||   
+GOTO
+primary_expression 57  ||   operator 56  ||   arithmetic_expression 98  ||   
+
+   81
+ACTION
+; r46  ||   , r46  ||   
+GOTO
+
+
+   82
+ACTION
+) r58  ||   , s58  ||   
+GOTO
+function_parameter_list_suffix 99  ||   
+
+   83
+ACTION
+int r54  ||   function r54  ||   float r54  ||   double r54  ||   char r54  ||   # r54  ||   
+GOTO
+
+
+   84
+ACTION
+for s107  ||   while s119  ||   if s109  ||   return s113  ||   break s102  ||   continue s104  ||   scanf s114  ||   print s112  ||   } r62  ||   { s120  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 118  ||   statement_list 117  ||   statement 116  ||   selection_statement 115  ||   jump_statement 111  ||   iteration_statement 110  ||   expression_statement 106  ||   declaration 105  ||   compound_statement 103  ||   assignment_expression_list 101  ||   assignment_expression 100  ||   
+
+   85
+ACTION
+number r17  ||   identifier r17  ||   ^ r17  ||   >= r17  ||   > r17  ||   <= r17  ||   < r17  ||   / r17  ||   - r17  ||   + r17  ||   * r17  ||   ) r17  ||   ( r17  ||   & r17  ||   % r17  ||   
+GOTO
+
+
+   86
+ACTION
+) r53  ||   function s93  ||   ( s89  ||   number s96  ||   identifier s95  ||   
+GOTO
+primary_expression 97  ||   function_expression 94  ||   expression_list 121  ||   expression 91  ||   constant_expression 90  ||   
+
+   87
+ACTION
+) r48  ||   >= s74  ||   <= s72  ||   & s66  ||   ^ s75  ||   > s73  ||   < s71  ||   % s65  ||   / s70  ||   * s67  ||   - s69  ||   + s68  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 78  ||   operator 77  ||   arithmetic_expression 122  ||   
+
+   88
+ACTION
+) r46  ||   
+GOTO
+
+
+   89
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 123  ||   constant_expression 36  ||   
+
+   90
+ACTION
+, r42  ||   ) r42  ||   
+GOTO
+
+
+   91
+ACTION
+) r51  ||   , s124  ||   
+GOTO
+expression_list_suffix 125  ||   
+
+   92
+ACTION
+) s126  ||   
+GOTO
+
+
+   93
+ACTION
+identifier s127  ||   
+GOTO
+
+
+   94
+ACTION
+, r43  ||   ) r43  ||   
+GOTO
+
+
+   95
+ACTION
+number r15  ||   identifier r15  ||   ^ r15  ||   >= r15  ||   > r15  ||   <= r15  ||   < r15  ||   / r15  ||   - r15  ||   , r15  ||   + r15  ||   * r15  ||   ) r15  ||   ( r15  ||   & r15  ||   % r15  ||   
+GOTO
+
+
+   96
+ACTION
+number r16  ||   identifier r16  ||   ^ r16  ||   >= r16  ||   > r16  ||   <= r16  ||   < r16  ||   / r16  ||   - r16  ||   , r16  ||   + r16  ||   * r16  ||   ) r16  ||   ( r16  ||   & r16  ||   % r16  ||   
+GOTO
+
+
+   97
+ACTION
+, r48  ||   ) r48  ||   >= s137  ||   <= s135  ||   & s129  ||   ^ s138  ||   > s136  ||   < s134  ||   % s128  ||   / s133  ||   * s130  ||   - s132  ||   + s131  ||   ( s89  ||   number s96  ||   identifier s95  ||   
+GOTO
+primary_expression 141  ||   operator 140  ||   arithmetic_expression 139  ||   
+
+   98
+ACTION
+; r47  ||   , r47  ||   
+GOTO
+
+
+   99
+ACTION
+) r57  ||   
+GOTO
+
+
+  100
+ACTION
+; r39  ||   , s142  ||   
+GOTO
+assignment_expression_list_suffix 143  ||   
+
+  101
+ACTION
+; s144  ||   
+GOTO
+
+
+  102
+ACTION
+; s145  ||   
+GOTO
+
+
+  103
+ACTION
+} r67  ||   { r67  ||   while r67  ||   scanf r67  ||   return r67  ||   print r67  ||   int r67  ||   if r67  ||   identifier r67  ||   for r67  ||   float r67  ||   double r67  ||   continue r67  ||   char r67  ||   break r67  ||   ; r67  ||   
+GOTO
+
+
+  104
+ACTION
+; s146  ||   
+GOTO
+
+
+  105
+ACTION
+} r68  ||   { r68  ||   while r68  ||   scanf r68  ||   return r68  ||   print r68  ||   int r68  ||   if r68  ||   identifier r68  ||   for r68  ||   float r68  ||   double r68  ||   continue r68  ||   char r68  ||   break r68  ||   ; r68  ||   
+GOTO
+
+
+  106
+ACTION
+} r63  ||   { r63  ||   while r63  ||   scanf r63  ||   return r63  ||   print r63  ||   int r63  ||   if r63  ||   identifier r63  ||   for r63  ||   float r63  ||   double r63  ||   continue r63  ||   char r63  ||   break r63  ||   ; r63  ||   
+GOTO
+
+
+  107
+ACTION
+( s147  ||   
+GOTO
+
+
+  108
+ACTION
+& s149  ||   ^ s155  ||   % s148  ||   / s153  ||   * s150  ||   - s152  ||   + s151  ||   = s154  ||   
+GOTO
+assignment_operator 156  ||   
+
+  109
+ACTION
+( s157  ||   
+GOTO
+
+
+  110
+ACTION
+} r66  ||   { r66  ||   while r66  ||   scanf r66  ||   return r66  ||   print r66  ||   int r66  ||   if r66  ||   identifier r66  ||   for r66  ||   float r66  ||   double r66  ||   continue r66  ||   char r66  ||   break r66  ||   ; r66  ||   
+GOTO
+
+
+  111
+ACTION
+} r64  ||   { r64  ||   while r64  ||   scanf r64  ||   return r64  ||   print r64  ||   int r64  ||   if r64  ||   identifier r64  ||   for r64  ||   float r64  ||   double r64  ||   continue r64  ||   char r64  ||   break r64  ||   ; r64  ||   
+GOTO
+
+
+  112
+ACTION
+( s158  ||   
+GOTO
+
+
+  113
+ACTION
+function s162  ||   ( s159  ||   number s165  ||   identifier s164  ||   
+GOTO
+primary_expression 166  ||   function_expression 163  ||   expression 161  ||   constant_expression 160  ||   
+
+  114
+ACTION
+( s167  ||   
+GOTO
+
+
+  115
+ACTION
+} r65  ||   { r65  ||   while r65  ||   scanf r65  ||   return r65  ||   print r65  ||   int r65  ||   if r65  ||   identifier r65  ||   for r65  ||   float r65  ||   double r65  ||   continue r65  ||   char r65  ||   break r65  ||   ; r65  ||   
+GOTO
+
+
+  116
+ACTION
+for s107  ||   while s119  ||   if s109  ||   return s113  ||   break s102  ||   continue s104  ||   scanf s114  ||   print s112  ||   } r62  ||   { s120  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 118  ||   statement_list 168  ||   statement 116  ||   selection_statement 115  ||   jump_statement 111  ||   iteration_statement 110  ||   expression_statement 106  ||   declaration 105  ||   compound_statement 103  ||   assignment_expression_list 101  ||   assignment_expression 100  ||   
+
+  117
+ACTION
+} s169  ||   
+GOTO
+
+
+  118
+ACTION
+identifier s14  ||   
+GOTO
+declaration_parameter 170  ||   
+
+  119
+ACTION
+( s171  ||   
+GOTO
+
+
+  120
+ACTION
+for s107  ||   while s119  ||   if s109  ||   return s113  ||   break s102  ||   continue s104  ||   scanf s114  ||   print s112  ||   } r62  ||   { s120  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 118  ||   statement_list 172  ||   statement 116  ||   selection_statement 115  ||   jump_statement 111  ||   iteration_statement 110  ||   expression_statement 106  ||   declaration 105  ||   compound_statement 103  ||   assignment_expression_list 101  ||   assignment_expression 100  ||   
+
+  121
+ACTION
+) s173  ||   
+GOTO
+
+
+  122
+ACTION
+) r47  ||   
+GOTO
+
+
+  123
+ACTION
+) s174  ||   
+GOTO
+
+
+  124
+ACTION
+function s93  ||   ( s89  ||   number s96  ||   identifier s95  ||   
+GOTO
+primary_expression 97  ||   function_expression 94  ||   expression 175  ||   constant_expression 90  ||   
+
+  125
+ACTION
+) r52  ||   
+GOTO
+
+
+  126
+ACTION
+; r49  ||   , r49  ||   
+GOTO
+
+
+  127
+ACTION
+( s176  ||   
+GOTO
+
+
+  128
+ACTION
+number r22  ||   identifier r22  ||   ( r22  ||   , r22  ||   ) r22  ||   
+GOTO
+
+
+  129
+ACTION
+number r26  ||   identifier r26  ||   ( r26  ||   , r26  ||   ) r26  ||   
+GOTO
+
+
+  130
+ACTION
+number r20  ||   identifier r20  ||   ( r20  ||   , r20  ||   ) r20  ||   
+GOTO
+
+
+  131
+ACTION
+number r18  ||   identifier r18  ||   ( r18  ||   , r18  ||   ) r18  ||   
+GOTO
+
+
+  132
+ACTION
+number r19  ||   identifier r19  ||   ( r19  ||   , r19  ||   ) r19  ||   
+GOTO
+
+
+  133
+ACTION
+number r21  ||   identifier r21  ||   ( r21  ||   , r21  ||   ) r21  ||   
+GOTO
+
+
+  134
+ACTION
+number r23  ||   identifier r23  ||   ( r23  ||   , r23  ||   ) r23  ||   
+GOTO
+
+
+  135
+ACTION
+number r27  ||   identifier r27  ||   ( r27  ||   , r27  ||   ) r27  ||   
+GOTO
+
+
+  136
+ACTION
+number r24  ||   identifier r24  ||   ( r24  ||   , r24  ||   ) r24  ||   
+GOTO
+
+
+  137
+ACTION
+number r28  ||   identifier r28  ||   ( r28  ||   , r28  ||   ) r28  ||   
+GOTO
+
+
+  138
+ACTION
+number r25  ||   identifier r25  ||   ( r25  ||   , r25  ||   ) r25  ||   
+GOTO
+
+
+  139
+ACTION
+, r44  ||   ) r44  ||   
+GOTO
+
+
+  140
+ACTION
+, r45  ||   ) r45  ||   ( s89  ||   number s96  ||   identifier s95  ||   
+GOTO
+primary_expression 177  ||   
+
+  141
+ACTION
+, r48  ||   ) r48  ||   >= s137  ||   <= s135  ||   & s129  ||   ^ s138  ||   > s136  ||   < s134  ||   % s128  ||   / s133  ||   * s130  ||   - s132  ||   + s131  ||   ( s89  ||   number s96  ||   identifier s95  ||   
+GOTO
+primary_expression 141  ||   operator 140  ||   arithmetic_expression 178  ||   
+
+  142
+ACTION
+identifier s108  ||   
+GOTO
+assignment_expression 179  ||   
+
+  143
+ACTION
+; r40  ||   
+GOTO
+
+
+  144
+ACTION
+} r69  ||   { r69  ||   while r69  ||   scanf r69  ||   return r69  ||   print r69  ||   int r69  ||   if r69  ||   identifier r69  ||   for r69  ||   float r69  ||   double r69  ||   continue r69  ||   char r69  ||   break r69  ||   ; r69  ||   
+GOTO
+
+
+  145
+ACTION
+} r73  ||   { r73  ||   while r73  ||   scanf r73  ||   return r73  ||   print r73  ||   int r73  ||   if r73  ||   identifier r73  ||   for r73  ||   float r73  ||   double r73  ||   continue r73  ||   char r73  ||   break r73  ||   ; r73  ||   
+GOTO
+
+
+  146
+ACTION
+} r72  ||   { r72  ||   while r72  ||   scanf r72  ||   return r72  ||   print r72  ||   int r72  ||   if r72  ||   identifier r72  ||   for r72  ||   float r72  ||   double r72  ||   continue r72  ||   char r72  ||   break r72  ||   ; r72  ||   
+GOTO
+
+
+  147
+ACTION
+char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 181  ||   declaration 180  ||   
+
+  148
+ACTION
+= s182  ||   
+GOTO
+
+
+  149
+ACTION
+= s183  ||   
+GOTO
+
+
+  150
+ACTION
+= s184  ||   
+GOTO
+
+
+  151
+ACTION
+= s185  ||   
+GOTO
+
+
+  152
+ACTION
+= s186  ||   
+GOTO
+
+
+  153
+ACTION
+= s187  ||   
+GOTO
+
+
+  154
+ACTION
+number r29  ||   identifier r29  ||   function r29  ||   ( r29  ||   
+GOTO
+
+
+  155
+ACTION
+= s188  ||   
+GOTO
+
+
+  156
+ACTION
+function s26  ||   ( s23  ||   number s29  ||   identifier s28  ||   
+GOTO
+primary_expression 30  ||   function_expression 27  ||   expression 189  ||   constant_expression 24  ||   
+
+  157
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 190  ||   constant_expression 36  ||   
+
+  158
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 191  ||   constant_expression 36  ||   
+
+  159
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 192  ||   constant_expression 36  ||   
+
+  160
+ACTION
+; r42  ||   
+GOTO
+
+
+  161
+ACTION
+; s193  ||   
+GOTO
+
+
+  162
+ACTION
+identifier s194  ||   
+GOTO
+
+
+  163
+ACTION
+; r43  ||   
+GOTO
+
+
+  164
+ACTION
+number r15  ||   identifier r15  ||   ^ r15  ||   >= r15  ||   > r15  ||   <= r15  ||   < r15  ||   ; r15  ||   / r15  ||   - r15  ||   + r15  ||   * r15  ||   ( r15  ||   & r15  ||   % r15  ||   
+GOTO
+
+
+  165
+ACTION
+number r16  ||   identifier r16  ||   ^ r16  ||   >= r16  ||   > r16  ||   <= r16  ||   < r16  ||   ; r16  ||   / r16  ||   - r16  ||   + r16  ||   * r16  ||   ( r16  ||   & r16  ||   % r16  ||   
+GOTO
+
+
+  166
+ACTION
+; r48  ||   >= s204  ||   <= s202  ||   & s196  ||   ^ s205  ||   > s203  ||   < s201  ||   % s195  ||   / s200  ||   * s197  ||   - s199  ||   + s198  ||   ( s159  ||   number s165  ||   identifier s164  ||   
+GOTO
+primary_expression 208  ||   operator 207  ||   arithmetic_expression 206  ||   
+
+  167
+ACTION
+identifier s209  ||   
+GOTO
+
+
+  168
+ACTION
+} r61  ||   
+GOTO
+
+
+  169
+ACTION
+int r60  ||   function r60  ||   float r60  ||   double r60  ||   char r60  ||   # r60  ||   
+GOTO
+
+
+  170
+ACTION
+; r14  ||   , s16  ||   
+GOTO
+declaration_parameter_suffix 210  ||   
+
+  171
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 211  ||   constant_expression 36  ||   
+
+  172
+ACTION
+} s212  ||   
+GOTO
+
+
+  173
+ACTION
+) r49  ||   
+GOTO
+
+
+  174
+ACTION
+number r17  ||   identifier r17  ||   ^ r17  ||   >= r17  ||   > r17  ||   <= r17  ||   < r17  ||   / r17  ||   - r17  ||   , r17  ||   + r17  ||   * r17  ||   ) r17  ||   ( r17  ||   & r17  ||   % r17  ||   
+GOTO
+
+
+  175
+ACTION
+) r51  ||   , s124  ||   
+GOTO
+expression_list_suffix 213  ||   
+
+  176
+ACTION
+) r53  ||   function s93  ||   ( s89  ||   number s96  ||   identifier s95  ||   
+GOTO
+primary_expression 97  ||   function_expression 94  ||   expression_list 214  ||   expression 91  ||   constant_expression 90  ||   
+
+  177
+ACTION
+, r48  ||   ) r48  ||   >= s137  ||   <= s135  ||   & s129  ||   ^ s138  ||   > s136  ||   < s134  ||   % s128  ||   / s133  ||   * s130  ||   - s132  ||   + s131  ||   ( s89  ||   number s96  ||   identifier s95  ||   
+GOTO
+primary_expression 141  ||   operator 140  ||   arithmetic_expression 215  ||   
+
+  178
+ACTION
+, r46  ||   ) r46  ||   
+GOTO
+
+
+  179
+ACTION
+; r39  ||   , s142  ||   
+GOTO
+assignment_expression_list_suffix 216  ||   
+
+  180
+ACTION
+function s162  ||   ( s159  ||   number s165  ||   identifier s164  ||   
+GOTO
+primary_expression 166  ||   function_expression 163  ||   expression 217  ||   constant_expression 160  ||   
+
+  181
+ACTION
+identifier s14  ||   
+GOTO
+declaration_parameter 218  ||   
+
+  182
+ACTION
+number r34  ||   identifier r34  ||   function r34  ||   ( r34  ||   
+GOTO
+
+
+  183
+ACTION
+number r36  ||   identifier r36  ||   function r36  ||   ( r36  ||   
+GOTO
+
+
+  184
+ACTION
+number r32  ||   identifier r32  ||   function r32  ||   ( r32  ||   
+GOTO
+
+
+  185
+ACTION
+number r30  ||   identifier r30  ||   function r30  ||   ( r30  ||   
+GOTO
+
+
+  186
+ACTION
+number r31  ||   identifier r31  ||   function r31  ||   ( r31  ||   
+GOTO
+
+
+  187
+ACTION
+number r33  ||   identifier r33  ||   function r33  ||   ( r33  ||   
+GOTO
+
+
+  188
+ACTION
+number r35  ||   identifier r35  ||   function r35  ||   ( r35  ||   
+GOTO
+
+
+  189
+ACTION
+; r37  ||   , r37  ||   
+GOTO
+
+
+  190
+ACTION
+) s219  ||   
+GOTO
+
+
+  191
+ACTION
+) s220  ||   
+GOTO
+
+
+  192
+ACTION
+) s221  ||   
+GOTO
+
+
+  193
+ACTION
+} r74  ||   { r74  ||   while r74  ||   scanf r74  ||   return r74  ||   print r74  ||   int r74  ||   if r74  ||   identifier r74  ||   for r74  ||   float r74  ||   double r74  ||   continue r74  ||   char r74  ||   break r74  ||   ; r74  ||   
+GOTO
+
+
+  194
+ACTION
+( s222  ||   
+GOTO
+
+
+  195
+ACTION
+number r22  ||   identifier r22  ||   ( r22  ||   ; r22  ||   
+GOTO
+
+
+  196
+ACTION
+number r26  ||   identifier r26  ||   ( r26  ||   ; r26  ||   
+GOTO
+
+
+  197
+ACTION
+number r20  ||   identifier r20  ||   ( r20  ||   ; r20  ||   
+GOTO
+
+
+  198
+ACTION
+number r18  ||   identifier r18  ||   ( r18  ||   ; r18  ||   
+GOTO
+
+
+  199
+ACTION
+number r19  ||   identifier r19  ||   ( r19  ||   ; r19  ||   
+GOTO
+
+
+  200
+ACTION
+number r21  ||   identifier r21  ||   ( r21  ||   ; r21  ||   
+GOTO
+
+
+  201
+ACTION
+number r23  ||   identifier r23  ||   ( r23  ||   ; r23  ||   
+GOTO
+
+
+  202
+ACTION
+number r27  ||   identifier r27  ||   ( r27  ||   ; r27  ||   
+GOTO
+
+
+  203
+ACTION
+number r24  ||   identifier r24  ||   ( r24  ||   ; r24  ||   
+GOTO
+
+
+  204
+ACTION
+number r28  ||   identifier r28  ||   ( r28  ||   ; r28  ||   
+GOTO
+
+
+  205
+ACTION
+number r25  ||   identifier r25  ||   ( r25  ||   ; r25  ||   
+GOTO
+
+
+  206
+ACTION
+; r44  ||   
+GOTO
+
+
+  207
+ACTION
+; r45  ||   ( s159  ||   number s165  ||   identifier s164  ||   
+GOTO
+primary_expression 223  ||   
+
+  208
+ACTION
+; r48  ||   >= s204  ||   <= s202  ||   & s196  ||   ^ s205  ||   > s203  ||   < s201  ||   % s195  ||   / s200  ||   * s197  ||   - s199  ||   + s198  ||   ( s159  ||   number s165  ||   identifier s164  ||   
+GOTO
+primary_expression 208  ||   operator 207  ||   arithmetic_expression 224  ||   
+
+  209
+ACTION
+) s225  ||   
+GOTO
+
+
+  210
+ACTION
+; s226  ||   
+GOTO
+
+
+  211
+ACTION
+) s227  ||   
+GOTO
+
+
+  212
+ACTION
+} r60  ||   { r60  ||   while r60  ||   scanf r60  ||   return r60  ||   print r60  ||   int r60  ||   if r60  ||   identifier r60  ||   for r60  ||   float r60  ||   double r60  ||   continue r60  ||   char r60  ||   break r60  ||   ; r60  ||   
+GOTO
+
+
+  213
+ACTION
+) r50  ||   
+GOTO
+
+
+  214
+ACTION
+) s228  ||   
+GOTO
+
+
+  215
+ACTION
+, r47  ||   ) r47  ||   
+GOTO
+
+
+  216
+ACTION
+; r38  ||   
+GOTO
+
+
+  217
+ACTION
+; s229  ||   
+GOTO
+
+
+  218
+ACTION
+; r14  ||   , s16  ||   
+GOTO
+declaration_parameter_suffix 230  ||   
+
+  219
+ACTION
+for s237  ||   while s247  ||   if s238  ||   return s242  ||   break s232  ||   continue s234  ||   scanf s243  ||   print s241  ||   { s248  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 246  ||   statement 245  ||   selection_statement 244  ||   jump_statement 240  ||   iteration_statement 239  ||   expression_statement 236  ||   declaration 235  ||   compound_statement 233  ||   assignment_expression_list 231  ||   assignment_expression 100  ||   
+
+  220
+ACTION
+; s249  ||   
+GOTO
+
+
+  221
+ACTION
+number r17  ||   identifier r17  ||   ^ r17  ||   >= r17  ||   > r17  ||   <= r17  ||   < r17  ||   ; r17  ||   / r17  ||   - r17  ||   + r17  ||   * r17  ||   ( r17  ||   & r17  ||   % r17  ||   
+GOTO
+
+
+  222
+ACTION
+) r53  ||   function s93  ||   ( s89  ||   number s96  ||   identifier s95  ||   
+GOTO
+primary_expression 97  ||   function_expression 94  ||   expression_list 250  ||   expression 91  ||   constant_expression 90  ||   
+
+  223
+ACTION
+; r48  ||   >= s204  ||   <= s202  ||   & s196  ||   ^ s205  ||   > s203  ||   < s201  ||   % s195  ||   / s200  ||   * s197  ||   - s199  ||   + s198  ||   ( s159  ||   number s165  ||   identifier s164  ||   
+GOTO
+primary_expression 208  ||   operator 207  ||   arithmetic_expression 251  ||   
+
+  224
+ACTION
+; r46  ||   
+GOTO
+
+
+  225
+ACTION
+; s252  ||   
+GOTO
+
+
+  226
+ACTION
+} r9  ||   { r9  ||   while r9  ||   scanf r9  ||   return r9  ||   print r9  ||   int r9  ||   if r9  ||   identifier r9  ||   for r9  ||   float r9  ||   double r9  ||   continue r9  ||   char r9  ||   break r9  ||   ; r9  ||   
+GOTO
+
+
+  227
+ACTION
+for s107  ||   while s119  ||   if s109  ||   return s113  ||   break s102  ||   continue s104  ||   scanf s114  ||   print s112  ||   { s120  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 118  ||   statement 253  ||   selection_statement 115  ||   jump_statement 111  ||   iteration_statement 110  ||   expression_statement 106  ||   declaration 105  ||   compound_statement 103  ||   assignment_expression_list 101  ||   assignment_expression 100  ||   
+
+  228
+ACTION
+, r49  ||   ) r49  ||   
+GOTO
+
+
+  229
+ACTION
+identifier s255  ||   
+GOTO
+assignment_expression 254  ||   
+
+  230
+ACTION
+; s256  ||   
+GOTO
+
+
+  231
+ACTION
+; s257  ||   
+GOTO
+
+
+  232
+ACTION
+; s258  ||   
+GOTO
+
+
+  233
+ACTION
+else r67  ||   
+GOTO
+
+
+  234
+ACTION
+; s259  ||   
+GOTO
+
+
+  235
+ACTION
+else r68  ||   
+GOTO
+
+
+  236
+ACTION
+else r63  ||   
+GOTO
+
+
+  237
+ACTION
+( s260  ||   
+GOTO
+
+
+  238
+ACTION
+( s261  ||   
+GOTO
+
+
+  239
+ACTION
+else r66  ||   
+GOTO
+
+
+  240
+ACTION
+else r64  ||   
+GOTO
+
+
+  241
+ACTION
+( s262  ||   
+GOTO
+
+
+  242
+ACTION
+function s162  ||   ( s159  ||   number s165  ||   identifier s164  ||   
+GOTO
+primary_expression 166  ||   function_expression 163  ||   expression 263  ||   constant_expression 160  ||   
+
+  243
+ACTION
+( s264  ||   
+GOTO
+
+
+  244
+ACTION
+else r65  ||   
+GOTO
+
+
+  245
+ACTION
+else s265  ||   
+GOTO
+
+
+  246
+ACTION
+identifier s14  ||   
+GOTO
+declaration_parameter 266  ||   
+
+  247
+ACTION
+( s267  ||   
+GOTO
+
+
+  248
+ACTION
+for s107  ||   while s119  ||   if s109  ||   return s113  ||   break s102  ||   continue s104  ||   scanf s114  ||   print s112  ||   } r62  ||   { s120  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 118  ||   statement_list 268  ||   statement 116  ||   selection_statement 115  ||   jump_statement 111  ||   iteration_statement 110  ||   expression_statement 106  ||   declaration 105  ||   compound_statement 103  ||   assignment_expression_list 101  ||   assignment_expression 100  ||   
+
+  249
+ACTION
+} r70  ||   { r70  ||   while r70  ||   scanf r70  ||   return r70  ||   print r70  ||   int r70  ||   if r70  ||   identifier r70  ||   for r70  ||   float r70  ||   double r70  ||   continue r70  ||   char r70  ||   break r70  ||   ; r70  ||   
+GOTO
+
+
+  250
+ACTION
+) s269  ||   
+GOTO
+
+
+  251
+ACTION
+; r47  ||   
+GOTO
+
+
+  252
+ACTION
+} r71  ||   { r71  ||   while r71  ||   scanf r71  ||   return r71  ||   print r71  ||   int r71  ||   if r71  ||   identifier r71  ||   for r71  ||   float r71  ||   double r71  ||   continue r71  ||   char r71  ||   break r71  ||   ; r71  ||   
+GOTO
+
+
+  253
+ACTION
+} r76  ||   { r76  ||   while r76  ||   scanf r76  ||   return r76  ||   print r76  ||   int r76  ||   if r76  ||   identifier r76  ||   for r76  ||   float r76  ||   double r76  ||   continue r76  ||   char r76  ||   break r76  ||   ; r76  ||   
+GOTO
+
+
+  254
+ACTION
+) s270  ||   
+GOTO
+
+
+  255
+ACTION
+& s149  ||   ^ s155  ||   % s148  ||   / s153  ||   * s150  ||   - s152  ||   + s151  ||   = s154  ||   
+GOTO
+assignment_operator 271  ||   
+
+  256
+ACTION
+number r9  ||   identifier r9  ||   function r9  ||   ( r9  ||   
+GOTO
+
+
+  257
+ACTION
+else r69  ||   
+GOTO
+
+
+  258
+ACTION
+else r73  ||   
+GOTO
+
+
+  259
+ACTION
+else r72  ||   
+GOTO
+
+
+  260
+ACTION
+char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 181  ||   declaration 272  ||   
+
+  261
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 273  ||   constant_expression 36  ||   
+
+  262
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 274  ||   constant_expression 36  ||   
+
+  263
+ACTION
+; s275  ||   
+GOTO
+
+
+  264
+ACTION
+identifier s276  ||   
+GOTO
+
+
+  265
+ACTION
+for s107  ||   while s119  ||   if s109  ||   return s113  ||   break s102  ||   continue s104  ||   scanf s114  ||   print s112  ||   { s120  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 118  ||   statement 277  ||   selection_statement 115  ||   jump_statement 111  ||   iteration_statement 110  ||   expression_statement 106  ||   declaration 105  ||   compound_statement 103  ||   assignment_expression_list 101  ||   assignment_expression 100  ||   
+
+  266
+ACTION
+; r14  ||   , s16  ||   
+GOTO
+declaration_parameter_suffix 278  ||   
+
+  267
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 279  ||   constant_expression 36  ||   
+
+  268
+ACTION
+} s280  ||   
+GOTO
+
+
+  269
+ACTION
+; r49  ||   
+GOTO
+
+
+  270
+ACTION
+for s107  ||   while s119  ||   if s109  ||   return s113  ||   break s102  ||   continue s104  ||   scanf s114  ||   print s112  ||   { s120  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 118  ||   statement 281  ||   selection_statement 115  ||   jump_statement 111  ||   iteration_statement 110  ||   expression_statement 106  ||   declaration 105  ||   compound_statement 103  ||   assignment_expression_list 101  ||   assignment_expression 100  ||   
+
+  271
+ACTION
+function s38  ||   ( s35  ||   number s41  ||   identifier s40  ||   
+GOTO
+primary_expression 42  ||   function_expression 39  ||   expression 282  ||   constant_expression 36  ||   
+
+  272
+ACTION
+function s162  ||   ( s159  ||   number s165  ||   identifier s164  ||   
+GOTO
+primary_expression 166  ||   function_expression 163  ||   expression 283  ||   constant_expression 160  ||   
+
+  273
+ACTION
+) s284  ||   
+GOTO
+
+
+  274
+ACTION
+) s285  ||   
+GOTO
+
+
+  275
+ACTION
+else r74  ||   
+GOTO
+
+
+  276
+ACTION
+) s286  ||   
+GOTO
+
+
+  277
+ACTION
+} r75  ||   { r75  ||   while r75  ||   scanf r75  ||   return r75  ||   print r75  ||   int r75  ||   if r75  ||   identifier r75  ||   for r75  ||   float r75  ||   double r75  ||   continue r75  ||   char r75  ||   break r75  ||   ; r75  ||   
+GOTO
+
+
+  278
+ACTION
+; s287  ||   
+GOTO
+
+
+  279
+ACTION
+) s288  ||   
+GOTO
+
+
+  280
+ACTION
+else r60  ||   
+GOTO
+
+
+  281
+ACTION
+} r77  ||   { r77  ||   while r77  ||   scanf r77  ||   return r77  ||   print r77  ||   int r77  ||   if r77  ||   identifier r77  ||   for r77  ||   float r77  ||   double r77  ||   continue r77  ||   char r77  ||   break r77  ||   ; r77  ||   
+GOTO
+
+
+  282
+ACTION
+) r37  ||   
+GOTO
+
+
+  283
+ACTION
+; s289  ||   
+GOTO
+
+
+  284
+ACTION
+for s237  ||   while s247  ||   if s238  ||   return s242  ||   break s232  ||   continue s234  ||   scanf s243  ||   print s241  ||   { s248  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 246  ||   statement 290  ||   selection_statement 244  ||   jump_statement 240  ||   iteration_statement 239  ||   expression_statement 236  ||   declaration 235  ||   compound_statement 233  ||   assignment_expression_list 231  ||   assignment_expression 100  ||   
+
+  285
+ACTION
+; s291  ||   
+GOTO
+
+
+  286
+ACTION
+; s292  ||   
+GOTO
+
+
+  287
+ACTION
+else r9  ||   
+GOTO
+
+
+  288
+ACTION
+for s237  ||   while s247  ||   if s238  ||   return s242  ||   break s232  ||   continue s234  ||   scanf s243  ||   print s241  ||   { s248  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 246  ||   statement 293  ||   selection_statement 244  ||   jump_statement 240  ||   iteration_statement 239  ||   expression_statement 236  ||   declaration 235  ||   compound_statement 233  ||   assignment_expression_list 231  ||   assignment_expression 100  ||   
+
+  289
+ACTION
+identifier s255  ||   
+GOTO
+assignment_expression 294  ||   
+
+  290
+ACTION
+else s295  ||   
+GOTO
+
+
+  291
+ACTION
+else r70  ||   
+GOTO
+
+
+  292
+ACTION
+else r71  ||   
+GOTO
+
+
+  293
+ACTION
+else r76  ||   
+GOTO
+
+
+  294
+ACTION
+) s296  ||   
+GOTO
+
+
+  295
+ACTION
+for s237  ||   while s247  ||   if s238  ||   return s242  ||   break s232  ||   continue s234  ||   scanf s243  ||   print s241  ||   { s248  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 246  ||   statement 297  ||   selection_statement 244  ||   jump_statement 240  ||   iteration_statement 239  ||   expression_statement 236  ||   declaration 235  ||   compound_statement 233  ||   assignment_expression_list 231  ||   assignment_expression 100  ||   
+
+  296
+ACTION
+for s237  ||   while s247  ||   if s238  ||   return s242  ||   break s232  ||   continue s234  ||   scanf s243  ||   print s241  ||   { s248  ||   ; r41  ||   identifier s108  ||   char s1  ||   double s3  ||   float s5  ||   int s8  ||   
+GOTO
+type_specifier 246  ||   statement 298  ||   selection_statement 244  ||   jump_statement 240  ||   iteration_statement 239  ||   expression_statement 236  ||   declaration 235  ||   compound_statement 233  ||   assignment_expression_list 231  ||   assignment_expression 100  ||   
+
+  297
+ACTION
+else r75  ||   
+GOTO
+
+
+  298
+ACTION
+else r77  ||   
+GOTO
+
+

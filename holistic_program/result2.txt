@@ -1,0 +1,78 @@
+start 
+external_declaration start 
+$ 
+declaration 
+function_definition 
+int 
+float 
+double 
+char 
+type_specifier declaration_parameter declaration_parameter_suffix ; 
+identifier declaration_parameter_assign 
+= expression 
+$ 
+, declaration_parameter declaration_parameter_suffix 
+$ 
+identifier 
+number 
+( expression ) 
++ 
+- 
+* 
+/ 
+% 
+< 
+> 
+^ 
+& 
+<= 
+>= 
+= 
++ = 
+- = 
+* = 
+/ = 
+% = 
+^ = 
+& = 
+identifier assignment_operator expression 
+, assignment_expression assignment_expression_list_suffix 
+$ 
+assignment_expression assignment_expression_list_suffix 
+$ 
+constant_expression 
+function_expression 
+primary_expression arithmetic_expression 
+operator 
+primary_expression arithmetic_expression 
+operator primary_expression arithmetic_expression 
+$ 
+function identifier ( expression_list ) 
+, expression expression_list_suffix 
+$ 
+expression expression_list_suffix 
+$ 
+function type_specifier identifier ( function_parameter_list ) compound_statement 
+function_parameter function_parameter_list_suffix 
+$ 
+, function_parameter function_parameter_list_suffix 
+$ 
+type_specifier identifier 
+{ statement_list } 
+statement statement_list 
+$ 
+expression_statement 
+jump_statement 
+selection_statement 
+iteration_statement 
+compound_statement 
+declaration 
+assignment_expression_list ; 
+print ( expression ) ; 
+scanf ( identifier ) ; 
+continue ; 
+break ; 
+return expression ; 
+if ( expression ) statement else statement 
+while ( expression ) statement 
+for ( declaration expression ; assignment_expression ) statement 
